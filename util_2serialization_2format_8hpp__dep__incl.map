@@ -1,0 +1,52 @@
+<map id="format.hpp" name="format.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="2213,5,2308,32"/>
+<area shape="rect" id="node2" href="$archiverd_8cpp.html" title=" " alt="" coords="111,80,221,107"/>
+<area shape="rect" id="node3" href="$atomizer_8cpp.html" title=" " alt="" coords="887,304,994,331"/>
+<area shape="rect" id="node4" href="$atomizer_2archiver_2client_8cpp.html" title=" " alt="" coords="2561,80,2646,107"/>
+<area shape="rect" id="node5" href="$twophase_2locking__shard_2client_8cpp.html" title=" " alt="" coords="2670,80,2755,107"/>
+<area shape="rect" id="node6" href="$client_2client_8cpp.html" title=" " alt="" coords="778,304,863,331"/>
+<area shape="rect" id="node7" href="$uhs_2atomizer_2watchtower_2client_8hpp.html" title="Client helpers for interfacing with a watchtower server." alt="" coords="2780,80,2867,107"/>
+<area shape="rect" id="node10" href="$twophase_2locking__shard_2controller_8cpp.html" title=" " alt="" coords="2891,80,3001,107"/>
+<area shape="rect" id="node11" href="$atomizer_2archiver_2controller_8cpp.html" title=" " alt="" coords="3025,80,3136,107"/>
+<area shape="rect" id="node12" href="$atomizer_2atomizer_2controller_8cpp.html" title=" " alt="" coords="3160,80,3271,107"/>
+<area shape="rect" id="node13" href="$twophase_2coordinator_2controller_8cpp.html" title=" " alt="" coords="5,304,116,331"/>
+<area shape="rect" id="node14" href="$atomizer_2watchtower_2controller_8hpp.html" title=" " alt="" coords="2324,80,2435,107"/>
+<area shape="rect" id="node16" href="$watchtowerd_8cpp.html" title=" " alt="" coords="2758,155,2891,181"/>
+<area shape="rect" id="node17" href="$util_2serialization_2format_8cpp.html" title=" " alt="" coords="3295,80,3389,107"/>
+<area shape="rect" id="node18" href="$util_2rpc_2format_8cpp.html" title=" " alt="" coords="3413,80,3506,107"/>
+<area shape="rect" id="node19" href="$uhs_2twophase_2locking__shard_2format_8cpp.html" title=" " alt="" coords="3530,80,3623,107"/>
+<area shape="rect" id="node20" href="$uhs_2twophase_2coordinator_2format_8cpp.html" title=" " alt="" coords="141,304,234,331"/>
+<area shape="rect" id="node21" href="$uhs_2sentinel_2format_8cpp.html" title=" " alt="" coords="258,304,351,331"/>
+<area shape="rect" id="node22" href="$uhs_2atomizer_2atomizer_2format_8cpp.html" title=" " alt="" coords="375,304,469,331"/>
+<area shape="rect" id="node23" href="$locking__shard_8cpp.html" title=" " alt="" coords="2809,229,2947,256"/>
+<area shape="rect" id="node24" href="$uhs_2transaction_2messages_8cpp.html" title=" " alt="" coords="639,304,754,331"/>
+<area shape="rect" id="node25" href="$uhs_2atomizer_2watchtower_2messages_8cpp.html" title=" " alt="" coords="3647,80,3762,107"/>
+<area shape="rect" id="node26" href="$shard_8hpp.html" title="Shard core functionality." alt="" coords="1763,229,1849,256"/>
+<area shape="rect" id="node29" href="$twophase_2locking__shard_2state__machine_8cpp.html" title=" " alt="" coords="3787,80,3932,107"/>
+<area shape="rect" id="node30" href="$atomizer_2atomizer_2state__machine_8cpp.html" title=" " alt="" coords="1235,304,1380,331"/>
+<area shape="rect" id="node31" href="$status__update__messages_8cpp.html" title=" " alt="" coords="2072,229,2287,256"/>
+<area shape="rect" id="node32" href="$transaction_8cpp.html" title=" " alt="" coords="493,304,615,331"/>
+<area shape="rect" id="node33" href="$transaction_8hpp.html" title=" " alt="" coords="1430,80,1553,107"/>
+<area shape="rect" id="node42" href="$wallet_8cpp.html" title=" " alt="" coords="1019,304,1108,331"/>
+<area shape="rect" id="node45" href="$watchtower_8cpp.html" title=" " alt="" coords="2311,229,2435,256"/>
+<area shape="rect" id="node47" href="$tx__error__messages_8cpp.html" title=" " alt="" coords="1874,229,2047,256"/>
+<area shape="rect" id="node8" href="$atomizer__client_8hpp.html" title=" " alt="" coords="2967,155,3117,181"/>
+<area shape="rect" id="node9" href="$atomizer_2watchtower_2client_8cpp.html" title=" " alt="" coords="3142,155,3227,181"/>
+<area shape="rect" id="node15" href="$atomizer_2watchtower_2controller_8cpp.html" title=" " alt="" coords="2459,229,2569,256"/>
+<area shape="rect" id="node27" href="$atomizer_2shard_2controller_8hpp.html" title=" " alt="" coords="1544,304,1655,331"/>
+<area shape="rect" id="node28" href="$shard_8cpp.html" title=" " alt="" coords="1763,304,1849,331"/>
+<area shape="rect" id="node34" href="$atomizer_8hpp.html" title=" " alt="" coords="1299,229,1406,256"/>
+<area shape="rect" id="node35" href="$block_8hpp.html" title=" " alt="" coords="1327,155,1413,181"/>
+<area shape="rect" id="node36" href="$uhs_2atomizer_2atomizer_2messages_8hpp.html" title=" " alt="" coords="1481,229,1597,256"/>
+<area shape="rect" id="node37" href="$uhs_2sentinel_2client_8hpp.html" title=" " alt="" coords="1488,155,1575,181"/>
+<area shape="rect" id="node38" href="$distributed__tx_8hpp.html" title=" " alt="" coords="2593,229,2733,256"/>
+<area shape="rect" id="node39" href="$twophase_2coordinator_2interface_8hpp.html" title=" " alt="" coords="1599,155,1707,181"/>
+<area shape="rect" id="node40" href="$locking__shard_8hpp.html" title=" " alt="" coords="2593,155,2733,181"/>
+<area shape="rect" id="node41" href="$uhs_2transaction_2messages_8hpp.html" title=" " alt="" coords="601,229,717,256"/>
+<area shape="rect" id="node43" href="$uhs_2twophase_2coordinator_2messages_8hpp.html" title=" " alt="" coords="1731,155,1847,181"/>
+<area shape="rect" id="node44" href="$status__update_8hpp.html" title=" " alt="" coords="2273,155,2416,181"/>
+<area shape="rect" id="node46" href="$tx__error__messages_8hpp.html" title="Messages atomizers and shards can use to transmit errors to the watchtower, and which the watchtower ..." alt="" coords="1871,155,2045,181"/>
+<area shape="rect" id="node48" href="$validation_8cpp.html" title=" " alt="" coords="1110,229,1225,256"/>
+<area shape="rect" id="node49" href="$validation_8hpp.html" title=" " alt="" coords="1037,155,1151,181"/>
+<area shape="rect" id="node50" href="$wallet_8hpp.html" title=" " alt="" coords="945,229,1035,256"/>
+</map>

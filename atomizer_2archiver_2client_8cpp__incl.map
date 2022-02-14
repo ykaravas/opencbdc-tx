@@ -1,0 +1,52 @@
+<map id="client.cpp" name="client.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="1549,5,1635,32"/>
+<area shape="rect" id="node2" href="$uhs_2atomizer_2archiver_2client_8hpp.html" title=" " alt="" coords="965,319,1051,345"/>
+<area shape="rect" id="node11" href="$util_2serialization_2format_8hpp.html" title=" " alt="" coords="1737,557,1863,599"/>
+<area shape="rect" id="node40" href="$uhs_2atomizer_2atomizer_2format_8hpp.html" title=" " alt="" coords="1270,80,1439,121"/>
+<area shape="rect" id="node50" title=" " alt="" coords="1867,87,1927,114"/>
+<area shape="rect" id="node3" href="$block_8hpp.html" title=" " alt="" coords="1046,393,1215,435"/>
+<area shape="rect" id="node15" href="$logging_8hpp.html" title=" " alt="" coords="200,736,299,763"/>
+<area shape="rect" id="node38" href="$tcp__socket_8hpp.html" title=" " alt="" coords="934,483,1135,509"/>
+<area shape="rect" id="node4" href="$transaction_8hpp.html" title=" " alt="" coords="491,483,717,509"/>
+<area shape="rect" id="node10" title=" " alt="" coords="1339,811,1402,837"/>
+<area shape="rect" id="node13" title=" " alt="" coords="2099,811,2170,837"/>
+<area shape="rect" id="node29" title=" " alt="" coords="2189,736,2259,763"/>
+<area shape="rect" id="node31" title=" " alt="" coords="1005,654,1064,681"/>
+<area shape="rect" id="node37" href="$buffer_8hpp.html" title=" " alt="" coords="909,736,1083,763"/>
+<area shape="rect" id="node5" title=" " alt="" coords="515,565,642,591"/>
+<area shape="rect" id="node6" href="$hash_8hpp.html" title=" " alt="" coords="617,736,783,763"/>
+<area shape="rect" id="node9" href="$keys_8hpp.html" title=" " alt="" coords="1409,736,1575,763"/>
+<area shape="rect" id="node17" title=" " alt="" coords="485,811,552,837"/>
+<area shape="rect" id="node22" title=" " alt="" coords="675,811,749,837"/>
+<area shape="rect" id="node35" href="$serialization_2util_8hpp.html" title=" " alt="" coords="769,557,895,599"/>
+<area shape="rect" id="node7" title=" " alt="" coords="1663,811,1719,837"/>
+<area shape="rect" id="node8" title=" " alt="" coords="576,811,651,837"/>
+<area shape="rect" id="node12" href="$serializer_8hpp.html" title=" " alt="" coords="1937,736,2047,763"/>
+<area shape="rect" id="node14" href="$config_8hpp.html" title="Tools for reading options from a configuration file and building application&#45;specific parameter sets ..." alt="" coords="1190,654,1365,681"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1794,736,1862,763"/>
+<area shape="rect" id="node28" href="$variant__overloaded_8hpp.html" title=" " alt="" coords="1997,647,2152,688"/>
+<area shape="rect" id="node30" title=" " alt="" coords="1669,654,1755,681"/>
+<area shape="rect" id="node32" title=" " alt="" coords="1779,654,1821,681"/>
+<area shape="rect" id="node33" title=" " alt="" coords="857,654,981,681"/>
+<area shape="rect" id="node34" title=" " alt="" coords="717,654,832,681"/>
+<area shape="rect" id="node23" href="$socket_8hpp.html" title=" " alt="" coords="1107,736,1282,763"/>
+<area shape="rect" id="node25" title=" " alt="" coords="1165,811,1224,837"/>
+<area shape="rect" id="node26" title=" " alt="" coords="125,736,176,763"/>
+<area shape="rect" id="node16" title=" " alt="" coords="395,811,461,837"/>
+<area shape="rect" id="node18" title=" " alt="" coords="94,811,167,837"/>
+<area shape="rect" id="node19" title=" " alt="" coords="192,811,267,837"/>
+<area shape="rect" id="node20" title=" " alt="" coords="291,811,371,837"/>
+<area shape="rect" id="node21" title=" " alt="" coords="5,811,69,837"/>
+<area shape="rect" id="node24" title=" " alt="" coords="924,811,1001,837"/>
+<area shape="rect" id="node36" href="$buffer__serializer_8hpp.html" title=" " alt="" coords="1440,654,1595,681"/>
+<area shape="rect" id="node39" title=" " alt="" coords="1455,565,1521,591"/>
+<area shape="rect" id="node41" href="$atomizer__raft_8hpp.html" title=" " alt="" coords="1286,169,1423,196"/>
+<area shape="rect" id="node43" href="$atomizer_2atomizer_2state__machine_8hpp.html" title=" " alt="" coords="1171,244,1317,271"/>
+<area shape="rect" id="node42" href="$uhs_2atomizer_2atomizer_2messages_8hpp.html" title=" " alt="" coords="1075,319,1191,345"/>
+<area shape="rect" id="node47" href="$connection__manager_8hpp.html" title=" " alt="" coords="1243,393,1418,435"/>
+<area shape="rect" id="node48" href="$node_8hpp.html" title=" " alt="" coords="1491,244,1624,271"/>
+<area shape="rect" id="node49" href="$state__manager_8hpp.html" title=" " alt="" coords="1595,319,1741,345"/>
+<area shape="rect" id="node44" href="$atomizer_8hpp.html" title=" " alt="" coords="551,319,657,345"/>
+<area shape="rect" id="node45" title=" " alt="" coords="1493,401,1640,427"/>
+<area shape="rect" id="node46" title=" " alt="" coords="1627,483,1741,509"/>
+</map>

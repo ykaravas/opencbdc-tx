@@ -1,0 +1,4 @@
+<map id="cbdc::watchtower::blocking_client::request_best_block_height" name="cbdc::watchtower::blocking_client::request_best_block_height">
+<area shape="rect" id="node1" title="Sends a request_best_block_height to the Watchtower." alt="" coords="5,5,252,47"/>
+<area shape="rect" id="node2" href="$namespacecbdc.html#ae3bea62975afe6c33744795e6456f9b7" title="Serialize object into std::shared_ptr&lt;cbdc::buffer&gt; using a cbdc::buffer_serializer." alt="" coords="300,13,492,39"/>
+</map>

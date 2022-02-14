@@ -1,0 +1,52 @@
+<map id="format.cpp" name="format.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="1936,5,2030,32"/>
+<area shape="rect" id="node2" href="$uhs_2twophase_2coordinator_2format_8hpp.html" title=" " alt="" coords="1569,80,1664,107"/>
+<area shape="rect" id="node3" href="$twophase_2coordinator_2controller_8hpp.html" title=" " alt="" coords="1460,155,1570,181"/>
+<area shape="rect" id="node5" href="$twophase_2coordinator_2state__machine_8hpp.html" title=" " alt="" coords="1603,393,1750,420"/>
+<area shape="rect" id="node18" href="$util_2serialization_2format_8hpp.html" title=" " alt="" coords="2350,468,2477,509"/>
+<area shape="rect" id="node47" href="$uhs_2transaction_2messages_8hpp.html" title=" " alt="" coords="2160,229,2380,256"/>
+<area shape="rect" id="node49" href="$util_2raft_2messages_8hpp.html" title=" " alt="" coords="2688,80,2854,107"/>
+<area shape="rect" id="node4" href="$distributed__tx_8hpp.html" title=" " alt="" coords="1316,229,1456,256"/>
+<area shape="rect" id="node29" href="$locking__shard_8hpp.html" title=" " alt="" coords="1067,304,1254,345"/>
+<area shape="rect" id="node39" href="$random__source_8hpp.html" title="Pseudorandom number generator (PRNG) for generating random data from a given entropy source." alt="" coords="1564,468,1722,509"/>
+<area shape="rect" id="node40" href="$node_8hpp.html" title=" " alt="" coords="611,393,744,420"/>
+<area shape="rect" id="node41" href="$connection__manager_8hpp.html" title=" " alt="" coords="612,468,786,509"/>
+<area shape="rect" id="node42" href="$twophase_2coordinator_2interface_8hpp.html" title=" " alt="" coords="2104,311,2212,338"/>
+<area shape="rect" id="node43" href="$uhs_2twophase_2coordinator_2server_8hpp.html" title=" " alt="" coords="1855,229,1946,256"/>
+<area shape="rect" id="node46" href="$buffer_8hpp.html" title=" " alt="" coords="26,565,199,591"/>
+<area shape="rect" id="node16" href="$transaction_8hpp.html" title=" " alt="" coords="1946,393,2172,420"/>
+<area shape="rect" id="node23" title=" " alt="" coords="332,647,394,673"/>
+<area shape="rect" id="node38" title=" " alt="" coords="1502,393,1579,420"/>
+<area shape="rect" id="node6" href="$hashmap_8hpp.html" title=" " alt="" coords="1900,475,2096,502"/>
+<area shape="rect" id="node9" href="$logging_8hpp.html" title=" " alt="" coords="722,647,906,673"/>
+<area shape="rect" id="node13" title=" " alt="" coords="862,475,1008,502"/>
+<area shape="rect" id="node14" title=" " alt="" coords="1854,565,1978,591"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1430,565,1544,591"/>
+<area shape="rect" id="node7" href="$hash_8hpp.html" title=" " alt="" coords="1201,647,1282,673"/>
+<area shape="rect" id="node8" title=" " alt="" coords="2368,721,2424,748"/>
+<area shape="rect" id="node10" title=" " alt="" coords="2778,721,2844,748"/>
+<area shape="rect" id="node11" title=" " alt="" coords="782,721,846,748"/>
+<area shape="rect" id="node12" title=" " alt="" coords="1055,721,1130,748"/>
+<area shape="rect" id="node17" title=" " alt="" coords="1620,565,1746,591"/>
+<area shape="rect" id="node19" href="$serializer_8hpp.html" title=" " alt="" coords="3016,565,3126,591"/>
+<area shape="rect" id="node20" href="$config_8hpp.html" title="Tools for reading options from a configuration file and building application&#45;specific parameter sets ..." alt="" coords="798,565,973,591"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1308,647,1376,673"/>
+<area shape="rect" id="node24" href="$variant__overloaded_8hpp.html" title=" " alt="" coords="2408,557,2563,599"/>
+<area shape="rect" id="node25" title=" " alt="" coords="2459,647,2528,673"/>
+<area shape="rect" id="node26" title=" " alt="" coords="2638,565,2723,591"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1771,565,1830,591"/>
+<area shape="rect" id="node28" title=" " alt="" coords="2848,565,2891,591"/>
+<area shape="rect" id="node21" title=" " alt="" coords="207,647,266,673"/>
+<area shape="rect" id="node30" href="$uhs_2twophase_2locking__shard_2client_8hpp.html" title=" " alt="" coords="449,475,536,502"/>
+<area shape="rect" id="node31" href="$twophase_2locking__shard_2interface_8hpp.html" title=" " alt="" coords="426,565,534,591"/>
+<area shape="rect" id="node32" href="$status__interface_8hpp.html" title=" " alt="" coords="1048,565,1203,591"/>
+<area shape="rect" id="node33" href="$cache__set_8hpp.html" title=" " alt="" coords="1236,475,1437,502"/>
+<area shape="rect" id="node35" title=" " alt="" coords="768,393,859,420"/>
+<area shape="rect" id="node36" title=" " alt="" coords="883,393,944,420"/>
+<area shape="rect" id="node37" title=" " alt="" coords="969,393,1072,420"/>
+<area shape="rect" id="node34" title=" " alt="" coords="712,565,774,591"/>
+<area shape="rect" id="node44" href="$uhs_2twophase_2coordinator_2messages_8hpp.html" title=" " alt="" coords="1964,311,2080,338"/>
+<area shape="rect" id="node45" href="$async__server_8hpp.html" title=" " alt="" coords="1755,311,1939,338"/>
+<area shape="rect" id="node48" href="$validation_8hpp.html" title=" " alt="" coords="2287,311,2402,338"/>
+<area shape="rect" id="node50" title=" " alt="" coords="2698,155,2844,181"/>
+</map>

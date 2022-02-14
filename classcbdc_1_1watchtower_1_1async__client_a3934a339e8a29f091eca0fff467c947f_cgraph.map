@@ -1,0 +1,7 @@
+<map id="cbdc::watchtower::async_client::request_status_update" name="cbdc::watchtower::async_client::request_status_update">
+<area shape="rect" id="node1" title="Sends a StatusUpdateRequest to the Watchtower." alt="" coords="5,27,188,83"/>
+<area shape="rect" id="node2" href="$classcbdc_1_1network_1_1connection__manager.html#ae58313e9fc728ca452f96dd661d84c8f" title="Sends the provided data to all added peers." alt="" coords="236,5,428,47"/>
+<area shape="rect" id="node5" href="$namespacecbdc.html#ae3bea62975afe6c33744795e6456f9b7" title="Serialize object into std::shared_ptr&lt;cbdc::buffer&gt; using a cbdc::buffer_serializer." alt="" coords="236,71,428,98"/>
+<area shape="rect" id="node3" href="$classcbdc_1_1network_1_1peer.html#aafc3206ef9e0a7aa9cc85dc3b6d3948c" title="Sends buffered data." alt="" coords="476,5,627,47"/>
+<area shape="rect" id="node4" href="$classcbdc_1_1blocking__queue.html#a545725ae9c7b4643d91d690b05d9d2f0" title="Pushes an element onto the queue and notifies at most one waiting consumer." alt="" coords="675,5,837,47"/>
+</map>

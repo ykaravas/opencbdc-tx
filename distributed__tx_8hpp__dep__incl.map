@@ -1,0 +1,11 @@
+<map id="distributed_tx.hpp" name="distributed_tx.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="277,5,417,32"/>
+<area shape="rect" id="node2" href="$twophase_2coordinator_2controller_8hpp.html" title=" " alt="" coords="217,80,328,107"/>
+<area shape="rect" id="node9" href="$distributed__tx_8cpp.html" title=" " alt="" coords="353,80,491,107"/>
+<area shape="rect" id="node3" href="$twophase_2coordinator_2controller_8cpp.html" title=" " alt="" coords="5,229,116,256"/>
+<area shape="rect" id="node4" href="$coordinatord_8cpp.html" title=" " alt="" coords="395,155,526,181"/>
+<area shape="rect" id="node5" href="$uhs_2twophase_2coordinator_2format_8cpp.html" title=" " alt="" coords="141,229,234,256"/>
+<area shape="rect" id="node6" href="$uhs_2twophase_2coordinator_2format_8hpp.html" title=" " alt="" coords="225,155,320,181"/>
+<area shape="rect" id="node8" href="$twophase_2coordinator_2state__machine_8cpp.html" title=" " alt="" coords="393,229,539,256"/>
+<area shape="rect" id="node7" href="$twophase_2sentinel__2pc_2controller_8cpp.html" title=" " alt="" coords="259,229,369,256"/>
+</map>

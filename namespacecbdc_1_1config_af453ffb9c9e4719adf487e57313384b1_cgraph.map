@@ -1,0 +1,9 @@
+<map id="cbdc::config::read_coordinator_options" name="cbdc::config::read_coordinator_options">
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,164,177"/>
+<area shape="rect" id="node2" href="$namespacecbdc_1_1config.html#a70bb8028d224475bf2d123cee8f1511d" title=" " alt="" coords="212,5,421,47"/>
+<area shape="rect" id="node4" href="$namespacecbdc_1_1config.html#accf219035947c057f15558131b175eb3" title=" " alt="" coords="212,71,421,112"/>
+<area shape="rect" id="node5" href="$namespacecbdc_1_1config.html#a83da6e1b6a8feabdcda3ecd4f8975b5f" title=" " alt="" coords="212,136,421,177"/>
+<area shape="rect" id="node6" href="$namespacecbdc_1_1config.html#a569abd1a831bef46a57d5b997ab03f8d" title=" " alt="" coords="212,201,421,243"/>
+<area shape="rect" id="node7" href="$namespacecbdc_1_1sentinel.html#a49451c48c108396eebfdb96a0873541e" title="Return a human&#45;readable string describing a tx_status." alt="" coords="250,267,383,308"/>
+<area shape="rect" id="node3" href="$namespacecbdc_1_1config.html#a23a5998dd5dd1655deb7df78aed58e98" title=" " alt="" coords="469,136,679,177"/>
+</map>
