@@ -17,6 +17,7 @@ var dir_7967b90636fa563120b2ff3eb6a3c730 =
     [ "hashmap.cpp", "hashmap_8cpp.html", null ],
     [ "hashmap.hpp", "hashmap_8hpp.html", [
       [ "cbdc::hashing::const_sip_hash< T >", "structcbdc_1_1hashing_1_1const__sip__hash.html", "structcbdc_1_1hashing_1_1const__sip__hash" ],
+      [ "cbdc::hashing::const_sip_hash< buffer >", "structcbdc_1_1hashing_1_1const__sip__hash_3_01buffer_01_4.html", "structcbdc_1_1hashing_1_1const__sip__hash_3_01buffer_01_4" ],
       [ "cbdc::hashing::null", "structcbdc_1_1hashing_1_1null.html", "structcbdc_1_1hashing_1_1null" ]
     ] ],
     [ "keys.cpp", "keys_8cpp.html", "keys_8cpp" ],

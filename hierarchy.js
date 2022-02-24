@@ -38,6 +38,7 @@ var hierarchy =
     ] ],
     [ "cbdc::network::connection_manager", "classcbdc_1_1network_1_1connection__manager.html", null ],
     [ "cbdc::hashing::const_sip_hash< T >", "structcbdc_1_1hashing_1_1const__sip__hash.html", null ],
+    [ "cbdc::hashing::const_sip_hash< buffer >", "structcbdc_1_1hashing_1_1const__sip__hash_3_01buffer_01_4.html", null ],
     [ "cbdc::archiver::controller", "classcbdc_1_1archiver_1_1controller.html", null ],
     [ "cbdc::atomizer::controller", "classcbdc_1_1atomizer_1_1controller.html", null ],
     [ "cbdc::locking_shard::controller", "classcbdc_1_1locking__shard_1_1controller.html", null ],
