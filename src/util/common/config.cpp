@@ -665,6 +665,14 @@ namespace cbdc::config {
         return opts;
     }
 
+    auto read_extra_options(const std::string& config_file)
+        -> std::variant<extra_options, std::string> {
+        extra_options ext_opts = extra_options{};
+        auto cfg = parser(config_file);
+        ///@todo read extra opts here
+        return ext_opts;
+    }
+
     auto load_options(const std::string& config_file)
         -> std::variant<options, std::string> {
         auto opt = read_options(config_file);
@@ -675,6 +683,27 @@ namespace cbdc::config {
             }
         }
         return opt;
+    }
+
+    auto load_extra_options(const std::string& config_file)
+        -> std::variant<extra_options, std::string> {
+        extra_options ext_opts_ret;
+        auto opts = load_options(config_file);
+        if(std::holds_alternative<std::string>(opts)) {
+            return std::get<std::string>(opts);
+        }
+        auto ext_opts = read_extra_options(config_file);
+        // ext_opts.normal_options = std::get<options>(opts);
+        if(std::holds_alternative<extra_options>(ext_opts)) {
+            auto res = check_extra_options(std::get<extra_options>(ext_opts));
+            if(res) {
+                return *res;
+            }
+            ext_opts_ret = std::get<extra_options>(ext_opts);
+            ext_opts_ret.normal_options = std::get<options>(opts);
+        }
+
+        return ext_opts_ret;
     }
 
     auto check_options(const options& opts) -> std::optional<std::string> {
@@ -730,6 +759,58 @@ namespace cbdc::config {
                    "threshold";
         }
 
+        return std::nullopt;
+    }
+
+    auto check_extra_options(const extra_options& opts)
+        -> std::optional<std::string> {
+        if(opts.m_num_wallets < 2) {
+            return "Number of wallets cannot be less than 2";
+        }
+        if(opts.m_num_minters < 1) {
+            return "Number of minters cannot be less than 1";
+        }
+        if(opts.m_total_number_of_transactions < 1) {
+            return "Number of total transactions cannot be less than 1";
+        }
+        if(opts.m_transaction_frequency == 0) {
+            return "Transaction frequency cannot be 0";
+        }
+        if(opts.m_mint_frequency == 0) {
+            return "Mint frequency cannot be 0";
+        }
+        if(opts.m_sentinel_offline_probability >= 1) {
+            return "Sentinel offline probability cannot be greater than or "
+                   "equal to 1";
+        }
+        if(opts.m_shard_offline_probability >= 1) {
+            return "Shard offline probability cannot be greater than or "
+                   "equal to 1";
+        }
+
+        if(opts.normal_options.m_twophase_mode) {
+            if(opts.m_coordinator_offline_probability >= 1) {
+                return "Coordinator offline probability cannot be greater "
+                       "than or "
+                       "equal to 1";
+            }
+        } else {
+            if(opts.m_atomizer_offline_probability >= 1) {
+                return "Atomizer offline probability cannot be greater than "
+                       "or "
+                       "equal to 1";
+            }
+            if(opts.m_archiver_offline_probability >= 1) {
+                return "Archiver offline probability cannot be greater than "
+                       "or "
+                       "equal to 1";
+            }
+            if(opts.m_watchtower_offline_probability >= 1) {
+                return "Watchtower offline probability cannot be greater than "
+                       "or "
+                       "equal to 1";
+            }
+        }
         return std::nullopt;
     }
 

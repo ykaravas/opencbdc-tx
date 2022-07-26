@@ -124,6 +124,32 @@ namespace cbdc::config {
     static constexpr auto private_key_postfix = "private_key";
     static constexpr auto public_key_postfix = "public_key";
     static constexpr auto attestation_threshold_key = "attestation_threshold";
+    // Extra param keys
+    static constexpr auto num_wallets_key = "num_wallets";
+    static constexpr auto num_minters_key = "num_minters";
+    static constexpr auto num_redeemers_key = "num_redeemers";
+    static constexpr auto total_number_of_transactions_key
+        = "total_number_of_transactions";
+    static constexpr auto avg_mint_value_key = "avg_mint_value";
+    static constexpr auto avg_mint_count_key = "avg_mint_count";
+    static constexpr auto avg_redemption_value_key = "avg_redemption_value";
+    static constexpr auto avg_redemption_count_key = "avg_redemption_count";
+    static constexpr auto transaction_frequency_key = "transaction_frequency";
+    static constexpr auto mint_frequency_key = "mint_frequency";
+    static constexpr auto redemption_frequency_key = "redemption_frequency";
+    static constexpr auto sentinel_offline_probability_key
+        = "sentinel_offline_probability";
+    static constexpr auto shard_offline_probability_key
+        = "shard_offline_probability";
+    static constexpr auto atomizer_offline_probability_key
+        = "atomizer_offline_probability";
+    static constexpr auto archiver_offline_probability_key
+        = "archiver_offline_probability";
+    static constexpr auto watchtower_offline_probability_key
+        = "watchtower_offline_probability";
+    static constexpr auto coordinator_offline_probability_key
+        = "coordinator_offline_probability";
+    static constexpr auto randomize_execution_key = "randomize_execution";
 
     /// [start, end] inclusive.
     using shard_range_t = std::pair<uint8_t, uint8_t>;
@@ -260,6 +286,56 @@ namespace cbdc::config {
         size_t m_attestation_threshold{defaults::attestation_threshold};
     };
 
+    namespace extra_defaults {
+        static constexpr size_t num_wallets{2};
+        static constexpr size_t num_minters{1};
+        static constexpr size_t num_redeemers{1};
+        static constexpr size_t total_number_of_transactions{5};
+        static constexpr size_t avg_mint_value{10};
+        static constexpr size_t avg_mint_count{10};
+        static constexpr size_t avg_redemption_value{5};
+        static constexpr size_t avg_redemption_count{5};
+        static constexpr double transaction_frequency{5};
+        static constexpr double mint_frequency{0.1};
+        static constexpr double redemption_frequency{0.05};
+        static constexpr double sentinel_offline_probability{0};
+        static constexpr double shard_offline_probability{0};
+        static constexpr double atomizer_offline_probability{0};
+        static constexpr double archiver_offline_probability{0};
+        static constexpr double watchtower_offline_probability{0};
+        static constexpr double coordinator_offline_probability{0};
+        static constexpr bool randomize_execution{false};
+    }
+
+    struct extra_options {
+        options normal_options = options{};
+        size_t m_num_wallets{extra_defaults::num_wallets};
+        size_t m_num_minters{extra_defaults::num_minters};
+        size_t m_num_redeemers{extra_defaults::num_redeemers};
+        size_t m_total_number_of_transactions{
+            extra_defaults::total_number_of_transactions};
+        size_t m_avg_mint_value{extra_defaults::avg_mint_value};
+        size_t m_avg_mint_count{extra_defaults::avg_mint_count};
+        size_t m_avg_redemption_value{extra_defaults::avg_redemption_value};
+        size_t m_avg_redemption_count{extra_defaults::avg_redemption_count};
+        double m_transaction_frequency{extra_defaults::transaction_frequency};
+        double m_mint_frequency{extra_defaults::mint_frequency};
+        double m_redemption_frequency{extra_defaults::redemption_frequency};
+        double m_sentinel_offline_probability{
+            extra_defaults::sentinel_offline_probability};
+        double m_shard_offline_probability{
+            extra_defaults::shard_offline_probability};
+        double m_atomizer_offline_probability{
+            extra_defaults::atomizer_offline_probability};
+        double m_archiver_offline_probability{
+            extra_defaults::archiver_offline_probability};
+        double m_watchtower_offline_probability{
+            extra_defaults::watchtower_offline_probability};
+        double m_coordinator_offline_probability{
+            extra_defaults::coordinator_offline_probability};
+        bool m_randomize_execution{extra_defaults::randomize_execution};
+    };
+
     /// Read options from the given config file without checking invariants.
     /// \param config_file the path to the config file from which to load
     ///                    options.
@@ -268,11 +344,27 @@ namespace cbdc::config {
     auto read_options(const std::string& config_file)
         -> std::variant<options, std::string>;
 
+    /// Read options from the complicated given config file without checking
+    /// invariants.
+    /// \param config_file the path to the config file from which to load
+    ///                    options.
+    /// \return options struct with all required values, or string with error
+    ///         message on failure.
+    auto read_extra_options(const std::string& config_file)
+        -> std::variant<extra_options, std::string>;
+
     /// Loads options from the given config file and check for invariants.
     /// \param config_file the path to the config file from which load options.
     /// \return valid options struct, or string with error message on failure.
     auto load_options(const std::string& config_file)
         -> std::variant<options, std::string>;
+
+    /// Loads options from the given complicated config file and check for
+    /// invariants.
+    /// \param config_file the path to the config file from which load options.
+    /// \return valid options struct, or string with error message on failure.
+    auto load_extra_options(const std::string& config_file)
+        -> std::variant<extra_options, std::string>;
 
     /// Checks a fully populated options struct for invariants. Assumes struct
     /// contains all required options.
@@ -280,6 +372,14 @@ namespace cbdc::config {
     /// \return std::nullopt if the struct satisfies all invariants. Error
     ///         string otherwise.
     auto check_options(const options& opts) -> std::optional<std::string>;
+
+    /// Checks a fully populated extra options struct for invariants. Assumes
+    /// struct contains all required options.
+    /// \param opts options struct to check.
+    /// \return std::nullopt if the struct satisfies all invariants. Error
+    ///         string otherwise.
+    auto check_extra_options(const extra_options& ext_opts)
+        -> std::optional<std::string>;
 
     /// Checks if a hash is in the given range handled.
     /// \param range shard hash prefix range.
